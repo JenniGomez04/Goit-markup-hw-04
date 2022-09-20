@@ -1,0 +1,475 @@
+/* color del logo y el menu text-decoration quita la linea
+subrayado*/
+:root{
+
+    --color-white:#FFF;
+    --color-blue: #2196F3;
+    --color-black: #212121;
+    --color-grisc: #757575;
+    --color-banner-footer: #2F303A;
+    --color-back-gris: #F5F4FA;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-blue);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0%;
+}
+
+/* Encabezado*/
+
+.logo {
+  padding-right: 93px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-blue);
+}
+
+.header {
+  background-color: var(--color-white);
+  width: 100%;
+  height: 98px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: var(--color-back-gris);
+}
+
+/* container para skills y services*/
+
+.container{
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+
+/* Menu 1*/
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.left > ul {
+  display: flex;
+}
+
+.left > ul > li {
+  list-style: none;
+  padding-right: 50px;
+}
+
+.left > ul > li > a {
+  text-decoration: none;
+}
+
+
+/* Menu 2*/
+
+.right {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.right > li:last-child{
+  padding-left: 50px;
+}
+
+
+.contact {
+  color: var(--color-grisc);
+}
+
+.contact:hover {
+  color: var(--color-black);
+}
+
+/* Seccion banner css */
+.banner{
+  width: 100%;
+  background-color: var(--color-banner-footer);
+}
+
+.banner {
+  margin: 0%;
+  height: 600px;
+}
+
+.container-banner > h1 {
+  padding-top: 200px;
+  margin: auto;
+  width: 696px;
+  height: 320px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 44px;
+  color: var(--color-white);
+}
+
+
+.button {
+  width: 261px;
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--color-white);
+  background: var(--color-blue);
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 10px 32px;
+}
+
+/* Sección de texto en parrafos de inicio*/
+
+#container-skills{
+  width: 1200px;
+  padding: 0%;
+  padding-top: 95px;
+  padding-bottom: 94px;
+}
+
+#container-skills > ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+}
+
+#container-skills>  ul > li {
+  display: inline-block;
+  width: 270px;
+}
+
+/* Section skills text */
+.skills > h3 {
+  margin: 0%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 100%;
+  color: var(--color-black);
+}
+
+.skills > p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 146%;
+  color: var(--color-grisc);
+}
+
+/* Titles de inicio*/
+
+h2 {
+  margin: 0%;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--color-black);
+}
+
+/* Sección de imagenes servicios de Inicio*/
+
+.services {
+  background-color: var(--color-white);
+}
+
+.services h2{
+  padding-bottom: 55px;
+}
+
+#container-services {
+  border-style: none;
+  padding: 0%;
+  margin: 0%;
+  width: 1200px;
+}
+
+#images{
+  margin: 0%;
+  padding: 0%;
+  padding-bottom: 94px;
+}
+
+.services > #images > ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0%;
+  padding-bottom: 94px;
+  margin: 0%;
+}
+
+#images > ul > li {
+  margin-right: auto;
+  display: inline-block;
+  height: auto;
+}
+
+/* Sección de perfil de profesionales de inicio*/
+
+.container-profile{
+  background-color: var(--color-back-gris);
+  width: 100%;
+}
+
+#container-profile h2{
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+
+#container-profile{
+  width: 1200px;
+  display: inline;
+}
+
+.professionals {
+  margin: auto;
+  padding: 0%;
+  padding-bottom: 94px;
+  text-align: center;
+}
+
+#container-profile > ul > li {
+  display: inline-block;
+  padding-bottom: 94px;
+  margin-right: 23px;
+  background-color: var(--color-white)
+}
+
+.profile-box {
+  width: 270px;
+  height: 368px;
+  left: calc(50% - 370px/2);
+  padding: 0%;
+
+}
+
+/* Title team */
+
+.profile h3 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--color-black);
+}
+
+/* texto de seccion perfil */
+
+.profile-box > span {
+  display: inline-flex;
+  padding-bottom: 30px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-grisc);
+}
+
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 252px;
+    margin:0%;
+    display: flex;
+    justify-content: start;
+    background-color: var(--color-banner-footer);
+}
+
+.first-block {
+  padding-top: 60px;
+  padding-left: 215px;
+  background-color: #2F303A;
+}
+
+.networks h3{
+  color: var(--color-white);
+  align-content: center;
+}
+
+.networks{
+  margin: 42px 0 0 70px;
+}
+
+.social-networks {
+  padding: 0%;
+  list-style: none;
+}
+
+.social{
+  float: left;
+  margin-right: 10px;
+}
+
+
+address {
+  width: 231px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: var(--color-white);
+ }
+
+.menu-footer a {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-style: normal;
+  color: #ffffffa8;
+}
+
+.menu-footer .contact:hover {
+  color: var(--color-blue);
+}
+
+
+/* Portafolio */
+/* Active: Activa un elemento (botón y enlace) se pone la ubicación su bordo azul
+   Focus: Activa un elemento interactivo (botón y enlace) */
+
+.btaz {
+  color: var(--color-white);
+  background-color: var(--color-blue);
+  border-color: var(--color-white);
+  border-radius: 4px;
+}
+
+.btaz:hover,
+.btaz:active {
+  color: var(--color-black);
+  border-color: var(--color-blue);
+}
+
+.btgr {
+  color: var(--color-black);
+  background-color: var(--color-back-gris);
+  border-color: var(--color-back-gris);
+  border-radius: 4px;
+}
+
+.btgr:hover,
+.btgr:active {
+  color: var(--color-blue);
+  border-color:var(--color-blue);
+}
+
+/* Etiquetas link*/
+
+.link:hover,
+.link:active {
+  color: var(--color-blue);
+}
+
+
+/* CONTAINER PORTAFOLIO */
+.list-button{
+  margin: 0%;
+  width: 100%;
+}
+
+#filter{
+  width: 1200px;
+}
+
+#filter > ul {
+  display: flex;
+  justify-content: center;
+  margin: 0%;
+}
+
+#filter > ul > li {
+  padding-top: 106px;
+  padding-right: 8px;
+  padding-bottom: 50px;
+  display: block;
+}
+/* Aqui termina la lista de botones */
+
+
+.container-briefcase {
+  padding: 0%;
+  margin: 0%;
+  background-color: #EEEEEE;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#briefcase{
+  width: 1200px;
+  padding: 0%;
+  margin: 0%;
+  padding-bottom: 82px;
+}
+
+.list-portfolio {
+  padding: 0%;
+  display: flex;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  row-gap: 30px;
+  justify-content: space-between;
+}
+
+.list-portfolio li {
+  list-style: none;
+  border: 1px solid #EEE;
+}
+
+.box {
+  background-color: var(--color-white);
+  font-style: none;
+  border-bottom-width: 2px;
+  border-bottom-style: inset;
+  border-bottom-color: #EEEEEE;
+  padding-bottom: 20px;
+}
+
+.box h3{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.box span{
+  margin-left: 24px;
+}
+
+*/
+/* Contenedor 1,2 y 3 de imagenes de portafolio
+clases para css de textos de imagenes*/
+ h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--color-black);
+}
+
+span {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--color-grisc);
+}
+
+
