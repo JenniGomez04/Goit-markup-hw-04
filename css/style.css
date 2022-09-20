@@ -8,6 +8,7 @@ subrayado*/
     --color-grisc: #757575;
     --color-banner-footer: #2F303A;
     --color-back-gris: #F5F4FA;
+    --color-banner-imagen: #2F303A66;
 }
 
 a {
@@ -46,7 +47,7 @@ body {
   border-color: var(--color-back-gris);
 }
 
-/* container para skills y services*/
+/* container para skills, services y clientes regulares*/
 
 .container{
   width: 1200px;
@@ -100,7 +101,11 @@ body {
 /* Seccion banner css */
 .banner{
   width: 100%;
-  background-color: var(--color-banner-footer);
+  background-image: url(/images/Banner.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: var(--color-banner-imagen);
+  ;
 }
 
 .banner {
@@ -162,6 +167,14 @@ body {
   font-size: 14px;
   line-height: 100%;
   color: var(--color-black);
+}
+
+.recta-skills{
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: var(--color-back-gris);
 }
 
 .skills > p {
@@ -247,16 +260,18 @@ h2 {
   display: inline-block;
   padding-bottom: 94px;
   margin-right: 23px;
-  background-color: var(--color-white)
+  background-color: var(--color-white);
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0px 1px 3px #0000001f;
 }
 
 .profile-box {
   width: 270px;
-  height: 368px;
+  height: 428px;
   left: calc(50% - 370px/2);
   padding: 0%;
-
 }
+
 
 /* Title team */
 
@@ -281,6 +296,44 @@ h2 {
   font-weight: 400;
   font-size: 16px;
   color: var(--color-grisc);
+}
+ /*iconos redes sociales en perfiles*/
+.icons{
+  margin-top: 16px;
+}
+
+/*SECCION CLIENTES REGULARES*/
+/*.container-regular h2{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--color-black);
+}*/
+
+
+.container-regular{
+  margin: 0%;
+  padding: 0%;
+}
+
+/*TITULO*/
+.container-regular h2{
+  padding-top: 59px;
+  padding-bottom: 44px;
+}
+
+.client{
+  display: flex;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  padding-bottom: 151px;
+}
+
+.icons-client{
+  margin-right: 30px;
 }
 
 
@@ -308,6 +361,7 @@ h2 {
 
 .networks{
   margin: 42px 0 0 70px;
+  list-style: none;
 }
 
 .social-networks {
@@ -471,5 +525,6 @@ span {
   font-size: 16px;
   color: var(--color-grisc);
 }
+
 
 
