@@ -89,6 +89,10 @@ body {
   padding-left: 50px;
 }
 
+.right > li svg:hover{
+  border: 1px solid var(--color-blue);
+}
+
 
 .contact {
   color: var(--color-grisc);
@@ -136,6 +140,11 @@ body {
   display: block;
   margin: 0 auto;
   padding: 10px 32px;
+  border-radius: 4px;
+}
+
+.button:hover{
+  border: 1px solid var(--color-blue);
 }
 
 /* Sección de texto en parrafos de inicio*/
@@ -172,6 +181,10 @@ body {
 .recta-skills{
   margin-bottom: 30px;
   border-radius: 4px;
+}
+
+.recta-skills > svg:hover{
+  border: 1px solid var(--color-blue);
 }
 
 .skills > p {
@@ -229,18 +242,28 @@ h2 {
   height: auto;
 }
 
+.function:last-child{
+  margin-right: 10px;
+}
+
+.function:hover{
+  border: 1px solid var(--color-blue);
+}
+
 
 .function h3{
   width: 370px;
   height: 70px;
-  transform: translate(0px, -93px);
+  transform: translate(0px, -71px);
   color: var(--color-white);
   background-color: #2F303ACC;
   text-align: center;
+  justify-content: center;
 }
 
 #images h3{
   position: absolute;
+  margin: 0%;
   
 }
 
@@ -285,6 +308,11 @@ h2 {
 }
 
 
+.profile-box:hover{
+  border: 1px solid var(--color-blue);
+}
+
+
 /* Title team */
 
 .profile h3 {
@@ -310,12 +338,9 @@ h2 {
   color: var(--color-grisc);
 }
  /*iconos redes sociales en perfiles*/
+
 .icons{
   margin-top: 16px;
-}
-
-.icons > path:hover {
-  background-image: var(--color-blue);
 }
 
 .container-regular{
@@ -340,6 +365,11 @@ h2 {
 
 .icons-client{
   margin-right: 30px;
+}
+
+.icons-client svg:hover,
+.icons-client svg:active {
+  border: 1px solid var(--color-blue);
 }
 
 
@@ -382,8 +412,7 @@ h2 {
 
 .social:hover,
 .social:active{
-  border-color: var(--color-white);
-  border-radius: 4px;
+  border: 1px solid var(--color-blue);
 }
 
 address {
@@ -509,6 +538,10 @@ address {
   border-bottom-style: inset;
   border-bottom-color: #EEEEEE;
   padding-bottom: 20px;
+}
+
+.box:hover{
+  border: 1px solid var(--color-blue);
 }
 
 .box h3{
