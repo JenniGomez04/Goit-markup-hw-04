@@ -258,13 +258,13 @@ h2 {
   color: var(--color-white);
   background-color: #2F303ACC;
   text-align: center;
-  justify-content: center;
+  line-height: 70px;
 }
 
 #images h3{
   position: absolute;
   margin: 0%;
-  
+
 }
 
 /* Sección de perfil de profesionales de inicio*/
@@ -343,6 +343,10 @@ h2 {
   margin-top: 16px;
 }
 
+.icon-hover:hover{
+border: 1px solid var(--color-blue);
+}
+
 .container-regular{
   margin: 0%;
   padding: 0%;
@@ -365,10 +369,11 @@ h2 {
 
 .icons-client{
   margin-right: 30px;
+  border: 1px solid #AFB1B8;
 }
 
-.icons-client svg:hover,
-.icons-client svg:active {
+.icons-client:hover,
+.icons-client:active{
   border: 1px solid var(--color-blue);
 }
 
