@@ -105,7 +105,7 @@ body {
 /* Seccion banner css */
 .banner{
   width: 100%;
-  background-image: url('/images/banner.jpg');
+  background-image: url('./images/banner.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: var(--color-banner-imagen);
